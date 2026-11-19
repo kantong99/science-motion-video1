@@ -1,0 +1,16 @@
+{
+  "name": "science-motion-studio",
+  "version": "1.0.0",
+  "description": "Generator 10 video motion graphic sains, teknologi, dan data berbasis Remotion (4K, 30 FPS)",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.jsx",
+    "render": "remotion render src/index.jsx"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.138",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.138"
+  }
+}
